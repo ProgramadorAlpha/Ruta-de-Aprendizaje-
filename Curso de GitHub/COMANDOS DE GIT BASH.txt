@@ -1,0 +1,40 @@
+ git config --global core.autocrlf true :  ejemplo de comando
+
+ls : para listar
+
+cd: para moverse entre carpetas
+
+pwd : para mostar la url de la carpeta
+
+git status : Estatus
+
+git add: para agregar al Stage
+
+git commit -m _"Comentario ojo" : Commitear....
+
+rm (nombre del archivo): Borrar
+
+mv (nombre del archivo antiguo)_nuevo nombre del  archivo: para cambiar el nombre del Archivo
+
+.gitignore "es el archivo que se crea para escribir adentro los archivos que se quieren ignorar esto
+se hace desde el editor de texto ojo pero luego se comitea...
+
+git diff: para mostar los cambios que sean realizado en un archivo recientemente
+
+git diff --stage: muestra cambios en etapa de Stage
+
+git log : te muestra el historial y resumido en una lina es= git log  - -oneline.
+
+git branch : para indicar la rama 
+
+git checkout -b (nombre de la rama): para crear una rama; aqui algunas empresas ls gusta utilizar=
+(features/nombre de la funcionalidad) o otras el numnero del tiket que se quiere arreglar ejemplo (SS-415)
+
+git heckout (nombre de la rama) para cambiar a esa rama.
+
+cat (nombre del archivo) muestra el contenido del mismo.
+
+ git merge (nombre de la rama) : para traer y asi fusionar rama X con Y.
+
+
+
