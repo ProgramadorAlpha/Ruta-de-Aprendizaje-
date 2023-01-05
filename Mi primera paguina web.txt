@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi página</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi página</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <article>
+          <h2>Título del artículo</h2>
+          <p>Contenido del artículo</p>
+        </article>
+      </section>
+      <aside>
+        <h3>Barra lateral</h3>
+        <p>Contenido de la barra lateral</p>
+      </aside>
+    </main>
+    <footer>
+      <p>Copyright 2021</p>
+    </footer>
+  </body>
+</html>
