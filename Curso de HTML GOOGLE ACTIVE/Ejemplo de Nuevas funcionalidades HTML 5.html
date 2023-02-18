@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Nuevas carateristicas de HTML 5 en formularios </title>
+        <link href="miestilo.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1> Nuevas carateristicas de HTML 5 en formularios </h1>
+        <ul>
+            <li>
+                <a href="inicio.html"></a>Inicio </a>
+            </li>
+            <li>
+                <a href="productos.html"></a>Productos </a>
+            </li>
+            <li>
+                <a href="servicios.html"></a>Servicios </a>
+            </li>
+            <li>
+                <a href="contactos.html"></a>Contactos </a>
+            </li>undefined
+        </ul>undefined<div id="header">
+            <button>Inicio</button>
+            <form>
+                <input type="text" placeholder="Sitio de JL...">
+            </form>
+        </div>
+        <div class="caja1">Caja 1</div>
+        <div class="caja2">Caja 2</div>
+        <div class="caja3">Caja 3</div>
+        <p>Este es un ejemplo sobre las Nuevas carateristicas de HTML 5 en formularios</p>
+        <form id="form-order">
+            <p>
+                <label for="name"> Nombre (Obligatorio) </label>
+                <input type="text" name="name" id="name" placeholder="Juan Perez" autofocus autocomplete required>
+            </p>
+            <p>
+                <label form="passwd"> Contraseña (Obligatoria)</label>
+                <input type="password" name="passwd" id="passwd" placeholder="qwe1234" pattern="[a-z]{3}[0-9]{4}" required /> (La Contraseña debe tener 3 letras y 4 numeros en este Orden)
+            </p>
+            <p>
+                <label for="phone"> Telefono</label>
+                <input type="tel" name="phone" placeholder=+78901234>
+            </p>
+            <p>
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" placeholder="Ejemplo@email.com" />
+            </p>
+            <p>
+                <label for="website">Tu paguina web</label>
+                <input type="url" name="website" id="website" placeholder="Tu website .com">
+            </p>
+            <p>
+                <label for="numberexample">Nº de temas</label>
+                <input type="number" name="numberexample" id="numberexample" min="2" max="14" placeholder="2" step="2"> (entre 2 y 14 solo pares)
+            </p>
+            <p>
+                <label for="deliverydate">Fecha de envio</label>
+                <input type="date" name="deliverydate" id="deliverydate" min="2012-07-16"> (minimo 16 de ulio del 2012)
+            </p>
+            <p>
+                <label for="Colorexample">Color del Item</label>
+                <input type="color" name="colorexample" id="colorexample" value="#1A33FF">
+            </p>
+            <p>
+                <label for="search">Buscar</label>
+                <input type="search" name="search" id="search">
+            </p>
+            <p>
+                <label for="points">Rango de Valores</label>
+                <input type="range" name="points" id="points" min="1" max="10"> (Entre 1 y 10)
+            </p>
+            <p>
+            <fieldset>
+                <legend>Selecciona una prioridad</legend>
+                <p>
+                    <label>
+                        <input type="radio" name="priority" value="baja" checked>Baja </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="priority" value="media">Media </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="priority" value="alta">Alta </label>
+                </p>
+            </fieldset>
+            </p>
+            <p>
+            <fieldset>
+                <legend>Selecciona el tipo de envio</legend>
+                <p>
+                    <label>
+                        <input type="checkbox" name="deliverytype" value="urgente" checked>Urgente </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="deliverytype" value="acuse">Con acuse de recibo </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="deliverytype" value="reembolso">Contra reembolso </label>
+                </p>
+            </fieldset>
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
