@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Encuesta de Academia de Programación</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 class="title">Encuesta de Academia de Programación</h1>
+    <p class="description">Ayúdanos a mejorar nuestra academia contestando esta breve encuesta.</p>
+    <form class="survey-form" id="survey-form">
+    <label for="name" class="name-label">Nombre:</label>
+    <input type="text" class="name-input" id="name" name="name" placeholder="Ingresa tu nombre aquí" required> 
+    <br>
+    <label for="email" class="email-label">Email:</label>
+    <input type="email" class="email-input" id="email" name="email" placeholder="Ingresa tu email aquí" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="El correo debe tener un formato válido: usuario@dominio.com">
+    <br>
+    <label for="number" class="number-label">Número:</label>
+    <input type="number" class="number-input" id="number" min="1" max="100" placeholder="Ingresa tu número aquí" required>
+    <br>
+    <label for="dropdown" class="dropdown-label">Selecciona una opción:</label>
+    <select class="dropdown-input" id="dropdown" name="dropdown">
+      <option value="option1">Opción 1</option>
+      <option value="option2">Opción 2</option>
+    </select>
+    <br>
+    <div class="radio-group">
+      <label for="option1" class="radio-label">Opción 1</label>
+      <input type="radio" class="radio-input" id="option1" name="group1" value="option1" required>
+      <label for="option2" class="radio-label">Opción 2</label>
+      <input type="radio" class="radio-input" id="option2" name="group1" value="option2" required>
+      <label for="option3" class="radio-label">Opción 3</label>
+      <input type="radio" class="radio-input" id="option3" name="group1" value="option3" required>
+    </div>
+    <br>
+    <div class="checkbox-group">
+      <label for="checkbox1" class="checkbox-label">Opción 1</label>
+      <input type="checkbox" class="checkbox-input" id="checkbox1" name="checkbox-group" value="option1">
+      <label for="checkbox
+
+
+
+
+    <label for="comments"> Comentarios:</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit" id="submit">Enviar</button>
+  </form>
+</body>
+</html>
+
+
+
